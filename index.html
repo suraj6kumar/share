@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Profit Sharing Calculator</title>
+  <link rel="stylesheet" href="suraj1.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Project Profit Sharing</h1>
+    <form id="shareForm">
+      <div class="input-group">
+        <label for="profit">Total Profit (₹):</label>
+        <input type="number" id="profit" required />
+      </div>
+
+      <h3>Investors</h3>
+
+      <div class="investor">
+        <label>Name:</label>
+        <input type="text" value="Alice" id="name1" required />
+        <label>Investment (₹):</label>
+        <input type="number" id="investment1" required />
+      </div>
+
+      <div class="investor">
+        <label>Name:</label>
+        <input type="text" value="Bob" id="name2" required />
+        <label>Investment (₹):</label>
+        <input type="number" id="investment2" required />
+      </div>
+
+      <div class="investor">
+        <label>Name:</label>
+        <input type="text" value="Charlie" id="name3" required />
+        <label>Investment (₹):</label>
+        <input type="number" id="investment3" required />
+      </div>
+
+      <div class="investor">
+        <label>Name:</label>
+        <input type="text" value="Diana" id="name4" required />
+        <label>Investment (₹):</label>
+        <input type="number" id="investment4" required />
+      </div>
+
+      <button type="submit">Calculate Profit Shares</button>
+    </form>
+
+    <div id="result"></div>
+
+    <button id="printBtn" type="button">Print Result</button>
+  </div>
+
+  <script src="kumar1.js"></script>
+</body>
+</html>
